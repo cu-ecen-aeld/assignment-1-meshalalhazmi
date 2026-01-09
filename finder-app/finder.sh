@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/sh
 # Finder script for assignment 1 and assignment 2
 
 #Exits with return value 1 error and print statements if any of the parameters above were not specified
