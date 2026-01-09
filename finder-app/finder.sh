@@ -7,8 +7,9 @@ then
     echo "Usage: $0 <directory-to-search> <string-to-search>"
     exit 1
 fi
-
+ 
 filesdir=$1
+
 searchstr=$2
     echo "filesdir: ${filesdir} searchstr: ${searchstr}"
  
