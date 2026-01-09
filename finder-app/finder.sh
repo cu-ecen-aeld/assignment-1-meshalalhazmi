@@ -8,9 +8,9 @@ then
     exit 1
 fi
 
-filesdir =$1
-searchstr   =$2
-    echo "filesdir: $1 searchstr: $2"
+$filesdir =$1
+$searchstr   =$2
+    echo "filesdir: $filesdir searchstr: $searchstr"
  
 
 #Exits with return value 1 error and print statements if filesdir does not represent a directory on the filesystem
